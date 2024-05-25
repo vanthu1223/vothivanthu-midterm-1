@@ -18,12 +18,12 @@ function App() {
     <div id="app">
       <h1>PNV Team !!</h1>
       <p>Here are some PNV trainers and educators, do you know them?</p>
-      {ALL_PNV_TEACHERS.map((teacher,index) => {
+      {ALL_PNV_TEACHERS.map((user,index) => {
         <User 
           key={index}
-          firstName ={teacher.firstName}
-          lastName ={teacher.lastName}
-          title = {teacher.title}
+          firstName ={user.firstName}
+          lastName ={user.lastName}
+          title = {user.title}
         />
       })}
                    {/* How to loop on ALL_PNV_TEACHERS list ? */}
