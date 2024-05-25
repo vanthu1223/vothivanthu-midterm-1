@@ -20,7 +20,7 @@ function App() {
       <h1>PNV Team !!</h1>
       <p>Here are some PNV trainers and educators, do you know them?</p>
       {ALL_PNV_TEACHERS.map((item,index) => {
-        <User key= {index} user = {item}/> })}
+        <User key= {index} user= {item}/> })}
     </div>
   );
 }
