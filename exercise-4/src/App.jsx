@@ -12,11 +12,10 @@ function App() {
         <section className="places-category">
           <ul className="places">
             {/* For each place from AVAILABLE_PLACES, create a Place component */}
-            {AVAILABLE_PLACES.map((place) => {
+            {AVAILABLE_PLACES.map((place,index) => {
                 <Place 
-                key= {place.id}
-                title = {place.title}
-                image = {place.image}
+                key = {index}
+                place ={place}
                 />
             })}
           </ul>
